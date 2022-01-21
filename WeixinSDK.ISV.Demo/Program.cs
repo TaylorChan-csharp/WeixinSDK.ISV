@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace WeixinSDK.ISV.Demo
 {
-    internal class Program
+    public class Program
     {
+        /// <summary>
+        /// 应用程序入口
+        /// </summary>
+        public static void Main() 
+        { 
+        
+        }
     }
 }
