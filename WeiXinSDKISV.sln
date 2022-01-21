@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7BC52004-CD38-4E4D-BEF7-4438083302DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{00E9035C-4857-4387-AEEF-EF6CF13617BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinSDK.ISV.Entity", "WeixinSDK.ISV.Entity\WeixinSDK.ISV.Entity.csproj", "{96C86EBE-76FE-495C-A2CB-39D7A37F3BD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinSDK.ISV.Request", "WeixinSDK.ISV.Request\WeixinSDK.ISV.Request.csproj", "{BB914EE3-8D63-4416-A874-D4E155CB32E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinSDK.ISV.Response", "WeixinSDK.ISV.Response\WeixinSDK.ISV.Response.csproj", "{3B81142B-EB5C-4C85-A384-D36338753985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinSDK.ISV", "WeixinSDK.ISV\WeixinSDK.ISV.csproj", "{6A90BC8B-B409-48A2-93AA-EAFFFEC24DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeixinSDK.ISV.Demo", "WeixinSDK.ISV.Demo\WeixinSDK.ISV.Demo.csproj", "{03D0D5A0-2328-4CA5-B3CD-07982524AEC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96C86EBE-76FE-495C-A2CB-39D7A37F3BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96C86EBE-76FE-495C-A2CB-39D7A37F3BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96C86EBE-76FE-495C-A2CB-39D7A37F3BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96C86EBE-76FE-495C-A2CB-39D7A37F3BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB914EE3-8D63-4416-A874-D4E155CB32E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB914EE3-8D63-4416-A874-D4E155CB32E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB914EE3-8D63-4416-A874-D4E155CB32E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB914EE3-8D63-4416-A874-D4E155CB32E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B81142B-EB5C-4C85-A384-D36338753985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B81142B-EB5C-4C85-A384-D36338753985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B81142B-EB5C-4C85-A384-D36338753985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B81142B-EB5C-4C85-A384-D36338753985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A90BC8B-B409-48A2-93AA-EAFFFEC24DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A90BC8B-B409-48A2-93AA-EAFFFEC24DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A90BC8B-B409-48A2-93AA-EAFFFEC24DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A90BC8B-B409-48A2-93AA-EAFFFEC24DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D0D5A0-2328-4CA5-B3CD-07982524AEC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D0D5A0-2328-4CA5-B3CD-07982524AEC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D0D5A0-2328-4CA5-B3CD-07982524AEC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D0D5A0-2328-4CA5-B3CD-07982524AEC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{96C86EBE-76FE-495C-A2CB-39D7A37F3BD4} = {7BC52004-CD38-4E4D-BEF7-4438083302DE}
+		{BB914EE3-8D63-4416-A874-D4E155CB32E9} = {7BC52004-CD38-4E4D-BEF7-4438083302DE}
+		{3B81142B-EB5C-4C85-A384-D36338753985} = {7BC52004-CD38-4E4D-BEF7-4438083302DE}
+		{6A90BC8B-B409-48A2-93AA-EAFFFEC24DF0} = {7BC52004-CD38-4E4D-BEF7-4438083302DE}
+		{03D0D5A0-2328-4CA5-B3CD-07982524AEC2} = {7BC52004-CD38-4E4D-BEF7-4438083302DE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E5BF2A3-4A55-4669-835E-EAD99FFCE6AB}
+	EndGlobalSection
+EndGlobal
